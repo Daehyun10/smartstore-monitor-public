@@ -47,8 +47,6 @@ Create `config.json` from `config.example.json`, then fill in:
 }
 ```
 
-Never commit real API credentials.
-
 ## Excluded From GitHub
 
 - `keygen.py`
