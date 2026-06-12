@@ -18,9 +18,6 @@ customer data, real license files, build artifacts, and API credentials are excl
 
 The public build runs in demo mode by default.
 
-The private license verification and key generation logic has intentionally been
-removed from this repository.
-
 To disable demo mode:
 
 ```powershell
