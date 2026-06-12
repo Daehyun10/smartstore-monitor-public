@@ -1,0 +1,31 @@
+# Runtime/user data
+config.json
+history.json
+license.json
+customers.json
+reports/
+
+# Private license tooling
+keygen.py
+
+# Build outputs
+build/
+dist/
+deploy/
+*.exe
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local documents
+*.pdf
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
