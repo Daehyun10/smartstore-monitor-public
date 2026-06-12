@@ -16,14 +16,17 @@ customer data, real license files, build artifacts, and API credentials are excl
 
 ## Public Demo Mode
 
-The public build runs in demo mode by default.
+The public build runs in locked demo mode by default.
 
-To disable demo mode:
+In locked demo mode, the app can be launched and the UI can be reviewed, but
+production features are blocked:
 
-```powershell
-$env:SSTORE_PUBLIC_DEMO = "0"
-python main.py
-```
+- Product registration
+- Product deletion
+- Naver Shopping search
+- Automatic monitoring
+- Excel report export
+
 
 ## Setup
 
@@ -43,6 +46,7 @@ Create `config.json` from `config.example.json`, then fill in:
   "naver_client_secret": ""
 }
 ```
+
 
 ## Excluded From GitHub
 
